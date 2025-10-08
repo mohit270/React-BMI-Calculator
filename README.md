@@ -1,41 +1,65 @@
 # 🧮 React BMI Calculator
 
-A simple and interactive **BMI (Body Mass Index) Calculator** built using **React.js**.  
-This app allows users to input their height and weight to instantly calculate and display their BMI along with a health category (Underweight, Normal, Overweight, or Obese).
+A simple and interactive **BMI (Body Mass Index) Calculator** built using **React.js** and deployed on **Google Cloud Platform (GCP)**.  
+This app lets users easily calculate their BMI and find out their health category — **Underweight**, **Normal**, **Overweight**, or **Obese**.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
+
+👉 **[View Live App on Google Cloud]([https://YOUR_GCP_DEPLOYMENT_LINK_HERE](https://react-bmi-calculator.web.app))**
+
+*(Replace the above link with your actual deployed app URL)*
+
+---
+
+## 🧩 Features
 
 - ✅ Real-time BMI calculation  
-- 🎯 Simple and clean user interface  
-- ⚡ Fast and responsive (built with React)  
-- 🧠 Displays BMI category based on result  
-- 📱 Works seamlessly on mobile and desktop
+- 🎨 Clean and minimal UI  
+- ⚡ Fast and responsive design  
+- 📱 Works on mobile and desktop  
+- ☁️ Deployed using Google Cloud (App Engine / Cloud Run / Firebase Hosting)
 
 ---
 
-## 🧩 Tech Stack
+## 🧠 Formula Used
+
+\[
+\text{BMI} = \frac{\text{Weight (kg)}}{(\text{Height (m)})^2}
+\]
+
+| BMI Range | Category |
+|------------|-----------|
+| < 18.5 | Underweight |
+| 18.5 – 24.9 | Normal |
+| 25 – 29.9 | Overweight |
+| ≥ 30 | Obese |
+
+---
+
+## 🧰 Tech Stack
 
 - **Frontend:** React.js  
 - **Language:** JavaScript (ES6+)  
 - **Styling:** CSS  
+- **Deployment:** Google Cloud Platform (GCP)
 
 ---
 
-## 📦 Installation and Setup
+## 📦 Installation and Setup (Local)
 
-Follow these steps to run the app locally:
+To run the app locally:
 
 ```bash
-# Clone this repository
+# Clone the repository
 git clone https://github.com/mohit270/React-BMI-Calculator.git
 
-# Navigate to project folder
+# Go to the project directory
 cd React-BMI-Calculator
 
 # Install dependencies
 npm install
 
-# Run the app
+# Start the app
 npm start
