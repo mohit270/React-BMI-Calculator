@@ -1,17 +1,41 @@
-# React + Vite
+# 🧮 React BMI Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **BMI (Body Mass Index) Calculator** built using **React.js**.  
+This app allows users to input their height and weight to instantly calculate and display their BMI along with a health category (Underweight, Normal, Overweight, or Obese).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✅ Real-time BMI calculation  
+- 🎯 Simple and clean user interface  
+- ⚡ Fast and responsive (built with React)  
+- 🧠 Displays BMI category based on result  
+- 📱 Works seamlessly on mobile and desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-BMI-Calculator
+- **Frontend:** React.js  
+- **Language:** JavaScript (ES6+)  
+- **Styling:** CSS  
+
+---
+
+## 📦 Installation and Setup
+
+Follow these steps to run the app locally:
+
+```bash
+# Clone this repository
+git clone https://github.com/mohit270/React-BMI-Calculator.git
+
+# Navigate to project folder
+cd React-BMI-Calculator
+
+# Install dependencies
+npm install
+
+# Run the app
+npm start
