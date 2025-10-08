@@ -7,7 +7,7 @@ This app lets users easily calculate their BMI and find out their health categor
 
 ## 🚀 Live Demo
 
-👉 **[View Live App on Google Cloud]([https://YOUR_GCP_DEPLOYMENT_LINK_HERE](https://react-bmi-calculator.web.app))**
+👉 **[View Live App on Google Cloud](https://react-bmi-calculator.web.app)**
 
 *(Replace the above link with your actual deployed app URL)*
 
